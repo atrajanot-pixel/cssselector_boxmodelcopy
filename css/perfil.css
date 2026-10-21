@@ -1,0 +1,48 @@
+/* ========================================================
+   DESAFIO: CARTÃO DE PERFIL E BOX MODEL
+======================================================== */
+
+/* TAREFA 4: Seletor de Tag
+   Selecione a tag <body> e altere a cor de fundo para #f0f0f5 
+   e mude a fonte para Arial, sans-serif. */
+
+
+
+/* TAREFA 5: Seletor de ID + Box Model
+   Selecione o id #cartao-estudante:
+   - Largura (width) de 350px.
+   - Cor de fundo branca.
+   - Preenchimento interno (padding) de 20px.
+   - Borda sólida de 2px (escolha a cor).
+   - Centralize na tela com margin: 50px auto; */
+
+
+
+/* TAREFA 6: Seletor de Tag (Tipografia)
+   Selecione a tag <h2>, centralize o texto e mude a cor dele. */
+
+
+
+/* TAREFA 7: Seletor de Classe
+   Selecione a classe .texto-bio:
+   - Alinhe ao centro.
+   - Cor cinza escuro (#555).
+   - Espaçamento de linha (line-height) de 1.5. */
+
+
+
+/* TAREFA 8: Seletor de Classe + Box Model (Botões)
+   Selecione a classe .botao-contato:
+   - display: inline-block;
+   - padding de 10px (cima/baixo) e 15px (laterais).
+   - Cor de fundo escura e texto branco.
+   - Remova o sublinhado do link (text-decoration: none).
+   - Adicione margem para separar os botões do texto acima. */
+
+
+
+/* TAREFA 9: O Rodapé
+   Selecione a tag <footer>:
+   - Alinhe o texto ao centro.
+   - Adicione um margin-top de 40px para afastar do cartão.
+   - Mude o tamanho da fonte (font-size) para 14px. */
