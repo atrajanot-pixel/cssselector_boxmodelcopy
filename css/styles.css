@@ -1,0 +1,50 @@
+//Parte 1 - Seletores de Tag (Impacto Global)
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+}
+
+h1 {
+    color: #333333;
+}
+
+//Passo 2: Seletores de Classe (Reutilização)
+.titulo-padrao {
+    color: #0056b3;
+    text-transform: uppercase;
+}
+
+.texto-simples {
+    line-height: 1.6;
+    color: #555555;
+}
+
+.alerta {
+    color: #d9534f;
+    font-weight: bold;
+}
+
+//Passo 3: Seletores de ID (Exclusividade)
+
+#area-box-model {
+    background-color: #ffffff;
+}
+
+//Passo 4: O Box Model na Prática (O Grande Final)
+#caixa-teste {
+    /* 1. Conteúdo (Content) */
+    background-color: #e2e3e5;
+    width: 300px;
+    height: 100px;
+    
+    /* 2. Preenchimento Interno (Padding) */
+    padding: 20px;
+    
+    /* 3. Borda (Border) */
+    border: 5px solid #0056b3;
+    
+    /* 4. Margem Externa (Margin) */
+    margin-top: 30px;
+    margin-left: 50px;
+}
