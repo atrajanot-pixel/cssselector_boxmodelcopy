@@ -1,48 +1,59 @@
 /* ========================================================
-   DESAFIO: CARTÃO DE PERFIL E BOX MODEL
+   GABARITO: CARTÃO DE PERFIL E BOX MODEL
 ======================================================== */
 
-/* TAREFA 4: Seletor de Tag
-   Selecione a tag <body> e altere a cor de fundo para #f0f0f5 
-   e mude a fonte para Arial, sans-serif. */
+/* TAREFA 4: Seletor de Tag (Body) */
+body {
+    background-color: #f0f0f5;
+    font-family: Arial, sans-serif;
+}
 
+/* TAREFA 5: Seletor de ID + Box Model (Cartão) */
+#cartao-estudante {
+    width: 350px;
+    background-color: #ffffff;
+    padding: 20px;
+    border: 2px solid #0056b3;
+    margin: 50px auto;
+}
 
+/* TAREFA 6: Seletor de Tag (Tipografia H2) */
+h2 {
+    text-align: center;
+    color: #333333;
+}
 
-/* TAREFA 5: Seletor de ID + Box Model
-   Selecione o id #cartao-estudante:
-   - Largura (width) de 350px.
-   - Cor de fundo branca.
-   - Preenchimento interno (padding) de 20px.
-   - Borda sólida de 2px (escolha a cor).
-   - Centralize na tela com margin: 50px auto; */
+/* TAREFA 7: Seletor de Classe (Textos) */
+.texto-bio {
+    text-align: center;
+    color: #555555;
+    line-height: 1.5;
+}
 
+/* TAREFA 8: Seletor de Classe + Box Model (Botões) */
+.botao-contato {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #0056b3;
+    color: #ffffff;
+    text-decoration: none;
+    margin-top: 15px;
+    margin-right: 5px;
+}
 
+/* TAREFA 9: O Rodapé */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 14px;
+}
 
-/* TAREFA 6: Seletor de Tag (Tipografia)
-   Selecione a tag <h2>, centralize o texto e mude a cor dele. */
-
-
-
-/* TAREFA 7: Seletor de Classe
-   Selecione a classe .texto-bio:
-   - Alinhe ao centro.
-   - Cor cinza escuro (#555).
-   - Espaçamento de linha (line-height) de 1.5. */
-
-
-
-/* TAREFA 8: Seletor de Classe + Box Model (Botões)
-   Selecione a classe .botao-contato:
-   - display: inline-block;
-   - padding de 10px (cima/baixo) e 15px (laterais).
-   - Cor de fundo escura e texto branco.
-   - Remova o sublinhado do link (text-decoration: none).
-   - Adicione margem para separar os botões do texto acima. */
-
-
-
-/* TAREFA 9: O Rodapé
-   Selecione a tag <footer>:
-   - Alinhe o texto ao centro.
-   - Adicione um margin-top de 40px para afastar do cartão.
-   - Mude o tamanho da fonte (font-size) para 14px. */
+/* ========================================================
+   Como a imagem é "inline", usamos display: block 
+   para o margin: 0 auto funcionar nela também. 
+======================================================== */
+.foto-perfil {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+}
