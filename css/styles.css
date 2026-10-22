@@ -1,0 +1,22 @@
+body{
+    color: #944937;
+    font-family: 'Nunito', sans-serif;
+    
+}
+h1{
+    color:blueviolet;
+    
+}
+
+.texto-simples{
+    color: darkgoldenrod;
+}
+
+.alerta{
+    color:blue;
+    font-weight: bold
+
+}
+#area-box-model{
+    background-color: black;
+}
